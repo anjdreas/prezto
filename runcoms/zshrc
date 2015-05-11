@@ -11,3 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# Git escape wonderfulness
+autoload -Uz git-escape-magic
+git-escape-magic
